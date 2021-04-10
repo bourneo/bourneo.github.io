@@ -1,37 +1,49 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](home_page.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/bournev/bourne.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+可以测试以下几种锚链接：
+### English Anchor
+这个标题是英文的
 
-```markdown
-Syntax highlighted code block
+### English和中文混合
+这个标题是中英文混合但是英文在前面
 
-# Header 1
-## Header 2
-### Header 3
+### 中文English混合的
+这个标题是中英文混合但是第一个字符是中文
 
-- Bulleted
-- List
+### 中文标题
+这个标题只有中文
 
-1. Numbered
-2. List
+### Ready, set, GO!
+这个标题中带有标点符号
 
-**Bold** and _Italic_ and `Code` text
+下面是链接：
+[English Anchor](#english-anchor)：空格用`-`代替；所有字母小写
 
-[Link](url) and ![Image](src)
-```
+[English Anchor](#english-anchor)
+[English和中文混合](#english和中文混合)：注意第一个字母小写
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[English和中文混合](#english和中文混合)
+[中文English混合的](#中文english混合的)：注意英文要转成全小写
 
-### Jekyll Themes
+[中文English混合的](#中文english混合的)
+[Ready, set, GO!](#ready-set-go)：标点符号全部省略
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bournev/bourne.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Ready, set, GO!](#ready-set-go)
 
-### Support or Contact
+同一项目中不同文件的交叉链接
+如果在同一个项目中，可以使用相对路径：
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+[这个链接到另一个文件](branch_page.md)
+
+[这个链接到另一个文件](home_page.md)
+
+[另一个文件的锚点](origin_index.md)
+
+
+
