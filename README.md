@@ -1,2 +1,2 @@
-# bournev.github.io
+# bourneo.github.io
 blog website
